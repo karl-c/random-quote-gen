@@ -1,0 +1,21 @@
+body {
+  background: url('https://picsum.photos/1920/1080/?random') no-repeat center fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.quote-container {
+  background-color: rgba(0, 0, 0, .7);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,50%);
+
+  .quote-text {
+    color: #fff;
+    font-size: 20px;
+    @media (min-width: 992px) {
+      font-size: 30px;
+    }
+  }
+}
